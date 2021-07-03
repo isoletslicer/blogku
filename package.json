@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-morning-dew",
+  "name": "blogku",
   "version": "0.0.0-development",
-  "description": "A Gatsby theme/starter to build lightning-fast blog/websites",
+  "description": "A blog with gatsby-starter-morning-dew template ",
   "keywords": [
     "blog",
     "gatsby",
@@ -28,7 +28,8 @@
     "lh": "lighthousebot",
     "semantic-release": "semantic-release",
     "start": "gatsby develop",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "bin": {
     "generatePostPreviewImages": "./scripts/generatePostPreviewImages.js"
@@ -65,6 +66,7 @@
     "terser": "^4.6.11"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "lighthousebot": "https://github.com/GoogleChromeLabs/lighthousebot",
     "prettier": "^2.2.1",
     "puppeteer": "^5.4.1",

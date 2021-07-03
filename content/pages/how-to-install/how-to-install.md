@@ -2,21 +2,21 @@
 title: How to install
 slug: how-to-install
 cover: ./cover.png
-disqus: true
+disqus: false
 ---
 
 👋 Welcome on **gatsby-starter-morning-dew** starter template and theme!
 
 ## Installation (starter)
 
-* with Gatsby-cli: 
-  
+- with Gatsby-cli:
+
 ```bash
 npm install --global gatsby-cli
 gatsby new gatsby-blog https://github.com/maxpou/gatsby-starter-morning-dew
 ```
 
-* without Gatsby-cli
+- without Gatsby-cli
 
 ```bash
 git clone my-site git@github.com:maxpou/gatsby-starter-morning-dew.git
@@ -31,39 +31,44 @@ Then run `npm run develop` to try it locally.
 You can also use `gatsby-starter-morning-dew` as a [Gatsby theme](https://www.gatsbyjs.org/blog/2018-11-11-introducing-gatsby-themes/)!
 
 1. Add the theme
-  ```bash
-  npm install gatsby-starter-morning-dew
-  ```
+
+```bash
+npm install gatsby-starter-morning-dew
+```
+
 2. In your `gatsby-config.js`, add:
-  ```js
-  const config = require('./data/siteConfig')
-  // ...
-  plugins: [
-      {
-        resolve: "gatsby-starter-morning-dew",
-        options: {},
+
+```js
+const config = require('./data/siteConfig')
+// ...
+plugins: [
+    {
+      resolve: "gatsby-starter-morning-dew",
+      options: {},
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: config.siteTitle,
+        short_name: config.siteTitle,
+        start_url: config.pathPrefix,
+        background_color: config.background_color,
+        theme_color: config.theme_color,
+        display: config.display,
+        icon: 'content/images/company-icon.png', // path to your image
       },
-      {
-        resolve: `gatsby-plugin-manifest`,
-        options: {
-          name: config.siteTitle,
-          short_name: config.siteTitle,
-          start_url: config.pathPrefix,
-          background_color: config.background_color,
-          theme_color: config.theme_color,
-          display: config.display,
-          icon: 'content/images/company-icon.png', // path to your image
-        },
-      },
-  ],
-  ```
+    },
+],
+```
+
 3. Add an image called `baymax.png` in `content/images/baymax.png`.  
-🐞This is due to a bug.  
-😬 Don't worry, this picture will not appear on your website!
+   🐞This is due to a bug.  
+   😬 Don't worry, this picture will not appear on your website!
 
 Need more details? Checkout:
-* [maxpou.fr source](https://github.com/maxpou/maxpou.fr): Maxence Poutord's personnal blog;
-* [gatsby-groot source](https://github.com/maxpou/gatsby-groot/): a minimalist blog that use this template!
+
+- [maxpou.fr source](https://github.com/maxpou/maxpou.fr): Maxence Poutord's personnal blog;
+- [gatsby-groot source](https://github.com/maxpou/gatsby-groot/): a minimalist blog that use this template!
 
 ## Customisation
 
@@ -154,25 +159,21 @@ module.exports = {
 }
 ```
 
-
 ## FAQ (Theme): How do I ...
 
-* Change a specific components?  
-👉 See [Component Shadowing (on gatsbyjs.org)](https://www.gatsbyjs.org/blog/2019-04-29-component-shadowing/).
-  
-* Override the [default colors](https://github.com/maxpou/gatsby-starter-morning-dew/blob/master/src/tokens/colors.js)?  
-👉[Check how gatsby-groot extended default colors](https://github.com/maxpou/gatsby-groot/blob/master/src/gatsby-starter-morning-dew/theme.js).
-  
-* More questions? Find a bug?  
-👉Feel free to [open an issue](https://github.com/maxpou/gatsby-starter-morning-dew/issues/new)!  
-👉You can also [ping me on Twitter](https://twitter.com/_maxpou).  
-
+- Change a specific components?  
+  👉 See [Component Shadowing (on gatsbyjs.org)](https://www.gatsbyjs.org/blog/2019-04-29-component-shadowing/).
+- Override the [default colors](https://github.com/maxpou/gatsby-starter-morning-dew/blob/master/src/tokens/colors.js)?  
+  👉[Check how gatsby-groot extended default colors](https://github.com/maxpou/gatsby-groot/blob/master/src/gatsby-starter-morning-dew/theme.js).
+- More questions? Find a bug?  
+  👉Feel free to [open an issue](https://github.com/maxpou/gatsby-starter-morning-dew/issues/new)!  
+  👉You can also [ping me on Twitter](https://twitter.com/_maxpou).
 
 ## Markdown headers (for posts)
 
 ```yaml
 ---
-title: "My blog post title"
+title: 'My blog post title'
 # Slug (www.site.com/my-blog-post)
 slug: my-blog-post
 

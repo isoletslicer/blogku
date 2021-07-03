@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Hardaya S. Blog',
-  siteDescription: 'Blog',
+  siteDescription: 'Blog Homepage',
   authorName: 'RED',
   twitterUsername: '',
   authorAvatar: 'EF_Sieghart_Face_02.png', // file in content/images
@@ -24,7 +24,7 @@ module.exports = {
   headerLinksIcon: 'baymax.png', //  (leave empty to disable: '')
   headerLinks: [
     {
-      label: 'Blog',
+      label: 'Blog Homepage',
       url: '/',
     },
     {

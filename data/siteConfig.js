@@ -20,7 +20,7 @@ module.exports = {
   icon: 'content/images/baymax.png',
   postsPerPage: 6,
   disqusShortname: '',
-  headerTitle: 'Blog',
+  headerTitle: 'Blog Homepage',
   headerLinksIcon: 'baymax.png', //  (leave empty to disable: '')
   headerLinks: [
     {

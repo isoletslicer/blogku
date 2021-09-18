@@ -6,7 +6,7 @@ module.exports = {
   authorAvatar: 'EF_Sieghart_Face_02.png', // file in content/images
   defaultLang: 'en', // show flag if lang is not default. Leave empty to enable flags in post lists
   authorDescription: `
-  A Research Assistant equipped Causal Machine Learning & Back-End Development Skills. Skilled in Python, Javascript / Typescript, R.
+  A Research Assistant equipped Causal Inference Machine Learning & Back-End Development Skills. Skilled in Python, Javascript / Typescript, R.
 
   `,
   siteUrl: 'https://isoletslicer.github.io/',

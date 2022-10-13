@@ -29,14 +29,10 @@ Now, how do we do it?
 1. Create a `your_name_image_helper`.js file in your helpers folder in img folder innit (for sake of neat folder structure)
 2. Fill your `your_name_image_helper`.js file with this syntax :
 
-```js{5,6,7}
+```js{3}
 import { Image } from 'react-native' // import this
-
 import BackGroundDarkFoodDetail from '../../assets/bg-food-detail-dark.jpg' // import your asset
-
-export const BG_FOOD_DETAIL_IMAGE_DARK = Image.resolveAssetSource(
-  BackGroundDarkFoodDetail
-).uri // use the resolveAssetSource and use the .uri
+export const BG_FOOD_DETAIL_IMAGE_DARK = Image.resolveAssetSource(BackGroundDarkFoodDetail.uri // use the resolveAssetSource and use the .uri
 ```
 
 3. Import that `your_name_image_helper`.js to your component / screen to use it.

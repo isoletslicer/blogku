@@ -11,7 +11,9 @@ tags:
   - expo
 ---
 
-Imagine that you have a React Native Apps, (either pure one or with Expo), you had your phone connected already physically via USB Debugging. When you importing your picture from your app, it shown something like 'bridge error'. For the first timer using Expo React Native (without configuring Tethering from phone connection to private & run expo start --tunnel), it was so frustrating. I remember I cried Alot from that error. It won't shown my app unless I get rid that error with resolve it.
+Imagine that you have a React Native Apps, (either pure one or with Expo), you had your phone connected already physically via USB Debugging. When you importing your picture from your app, it shown something like 'bridge error'. For the first timer using Expo React Native (without configuring Tethering from phone connection to private & run expo start --tunnel), it was so frustrating.  
+I remember I cried _alot_ from that error.  
+It won't shown my app unless I get rid that error by resolving it.
 
 ![ERRORDAMNIT](./bridge-error.png)
 

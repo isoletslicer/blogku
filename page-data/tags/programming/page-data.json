@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tags-js",
-    "path": "/tags/programming",
-    "result": {"data":{"posts":{"edges":[{"node":{"excerpt":"Sedisti civiliter Lorem  markdownum  Ixione palus  semper peritura barbaque  in aureus\nobliquum erigitur gemmae utque cur natus, aera…","timeToRead":1,"frontmatter":{"title":"Bold Mage (fake post)","tags":["programming","stuff","fake"],"language":"en","slug":"bold-mage"}}}]}},"pageContext":{"tag":"programming"}},
-    "staticQueryHashes": ["1956263691","4156811642"]}
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/programming","result":{"data":{"posts":{"edges":[{"node":{"excerpt":"Sedisti civiliter Lorem  markdownum  Ixione palus  semper peritura barbaque  in aureus\nobliquum erigitur gemmae utque cur natus, aera…","timeToRead":1,"frontmatter":{"title":"Bold Mage (fake post)","tags":["programming","stuff","fake"],"language":"en","slug":"bold-mage"}}}]}},"pageContext":{"tag":"programming"}},"staticQueryHashes":["1956263691","4156811642"]}

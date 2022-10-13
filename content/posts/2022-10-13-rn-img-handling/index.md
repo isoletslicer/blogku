@@ -29,7 +29,7 @@ Now, how do we do it?
 1. Create a `your_name_image_helper`.js file in your helpers folder in img folder innit (for sake of neat folder structure)
 2. Fill your `your_name_image_helper`.js file with this syntax :
 
-```js{3}
+```js{5,6,7}
 import { Image } from 'react-native' // import this
 
 import BackGroundDarkFoodDetail from '../../assets/bg-food-detail-dark.jpg' // import your asset
